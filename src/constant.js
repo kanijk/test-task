@@ -1,6 +1,6 @@
 
 const Constant = {  
-    APP_PORT: 5000,
+    APP_PORT: process.env.PORT || 5000,
     ENV: process.env.NODE_ENV || "development",
     
     MONGO_PATH: "mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true",
